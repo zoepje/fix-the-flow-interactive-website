@@ -46,7 +46,10 @@ Voor deze opdracht ga je eerst leren een wireflow te tekenen van de interactie d
 
 Focus sprint 5 - De focus van deze sprint ligt op interactie en informatie architectuur van een website.
 
-Voor deze leertaak gelden de gedragscriteria voor sprint 5: 
+Doel van deze opdracht:
+* Je leert hoe je goede interactie kan ontwerpen en maken. 
+
+Voor deze leertaak gelden de gedragscriteria: 
 * Methodisch handelen: Student past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe.
 * Communiceren: Student luistert naar wat een ander zegt en neemt dit serieus.
 * Communiceren: Student kan binnen de squad ontwerpkeuzes, eigen ideeën en producten begrijpelijk verwoorden.
