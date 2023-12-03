@@ -28,13 +28,14 @@ Voor deze opdracht ga je eerst leren een wireflow te tekenen van de interactie d
 ### Aanpak
 
 1. Fork deze leertaak
-2. Kies een geschikte User Story uit de backlog van het project waar je aan gaat werken. 
-3. Schrijf de User Story in de Readme van je repo
-4. Kopieer de Wireflow die je hebt gemaakt in de deeltaak _Wireflow_ naar de Wiki van je repo
-5. Codeer de interactie met CSS en JS en commit je code naar je repo
-6. Test je ontwerp tijdens de code/design review in de eerste week. maak issues aan van de feedback die je krijgt en verbeter de feedback
-7. Doe een user test tijdens de code/design review in de tweede week en schrijf een verslag van de user test in de Wiki 
-8. Presenteer je werk tijden de sprint review aan de opdrachtgever
+2. Zet eerst de Wiki klaar om je proces de documenteren (gebruik hiervoor de fases van de DLC)
+3. Verwerk de feedback die je hebt gekregen tijdens de sprint-review van sprint 4, zet de feedback in issues en/of maak een projectboard aan. Bespreek dit met een docent.
+4. Kies een User Story uit de backlog van het project, of schrijf een User Story om deze sprint aan te gaan werken. De User story moet gaan over een interactief element.
+6. Teken een Wireflow van de User Story (deeltaak _Wireflow_) en bespreek dit met een docent.
+7. Codeer de interactie met CSS en JS en documenteer het eindresultaat in de Wiki. 
+8. Test je ontwerp tijdens de code/design review in de eerste week. maak issues aan van de feedback die je krijgt en verbeter de feedback
+9. Doe een user test tijdens de code/design review in de tweede week en schrijf een verslag van de user test in de Wiki 
+10. Presenteer je werk tijden de sprint review aan de opdrachtgever
 
 ### Materiaal
 
