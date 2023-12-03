@@ -48,7 +48,7 @@ Voor deze opdracht ga je eerst leren een wireflow te tekenen van de interactie d
 
 Deze opdracht is done als:
 
-- [ ] Je hebt een interactie gecodeerd en het eindresultaat gedocumenteerd in de Readme
+- [ ] Je hebt een interactie gecodeerd en het proces en eindresultaat gedocumenteerd in de Readme
 - [ ] Je hebt een code/design review gedaan, issues aangemaakt en de feedback verwerkt
 - [ ] Je hebt een user test gedaan en de test gedocumenteerd in de wiki
 
