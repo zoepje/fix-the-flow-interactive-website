@@ -9,8 +9,9 @@ Deze leertaak hoort bij sprint 5 _Fix the Flow_, dit is een leertaak die je indi
 
 In het college _S05W1-01-Sprintplanning-fix-the-flow_ krijg je uitleg over de opdracht. In de workshop _S05W1-03-Programming-interaction_ leer je hoe je met CSS en JS interactie codeert.
 
-Bij deze leertaak hoort de deeltaak:
-- [Fix-the-flow-wireflow](https://github.com/fdnd-task/fix-the-flow-wireflow) 
+Bij deze leertaak horen de deeltaken:
+- [Fix-the-flow-wireflow](https://github.com/fdnd-task/fix-the-flow-wireflow)
+- [Fix-the-flow-ui-events](https://github.com/fdnd-task/fix-the-flow-ui-events) 
 
 ## Doel van deze opdracht
 
