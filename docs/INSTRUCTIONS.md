@@ -46,8 +46,6 @@ Voor deze opdracht ga je eerst leren een wireflow te tekenen van de interactie d
 
 ## Criteria
 
-Focus sprint 5 - De focus van deze sprint ligt op interactie en informatie architectuur van een website.
-
 Deze opdracht is done als:
 
 - [ ] Je hebt een interactie gecodeerd en het eindresultaat gedocumenteerd in de Readme
