@@ -5,7 +5,7 @@ Ontwerp en maak een interactieve website voor een opdrachtgever.
 
 ## Context
 
-Deze leertaak hoort bij sprint 5 _Fix the Flow_, dit is een leertaak die je individueel of in een team uitvoert.
+Deze leertaak hoort bij sprint 5 _Fix the Flow_, dit is een leertaak die je individueel uitvoert.
 
 In het college _S05W1-01-Sprintplanning-interactie-en-wireflows_ krijg je uitleg over de opdracht. In de workshop _S05W1-02-Programming-interaction_ leer je hoe je met CSS en JS interactie codeert.
 
