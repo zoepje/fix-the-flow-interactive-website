@@ -7,7 +7,7 @@ Ontwerp en maak een interactieve website voor een opdrachtgever.
 
 Deze leertaak hoort bij sprint 5 _Fix the Flow_, dit is een leertaak die je individueel of in een team uitvoert.
 
-In het college _S05W1-01-Sprintplanning-fix-the-flow_ krijg je uitleg over de opdracht. In de workshop _S05W1-03-Programming-interaction_ leer je hoe je met CSS en JS interactie codeert.
+In het college _S05W1-01-Sprintplanning-interactie-en-wireflows_ krijg je uitleg over de opdracht. In de workshop _S05W1-02-Programming-interaction_ leer je hoe je met CSS en JS interactie codeert.
 
 Bij deze leertaak horen de deeltaken:
 - [Fix-the-flow-wireflow](https://github.com/fdnd-task/fix-the-flow-wireflow)
@@ -23,7 +23,7 @@ Voor deze opdracht kies je een User Story waarin een gebruiker iets moet doen, z
 
 Als een gebruiker interactie heeft met een systeem, moet je goede feedback/feedforward ontwerpen en maken. Zo weet een gebruiker wat die kan verwachten en of de actie gelukt is. 
 
-Voor deze opdracht ga je eerst leren een wireflow te tekenen van de interactie die je wil maken. Dat doe je in de deeltaak [fix-the-flow-wireflow](https://github.com/fdnd-task/fix-the-flow-wireflow). Daarna ga je de interactie coderen met CSS en JS. Tijdens de code/design review op vrijdag ga je de interactie leren testen met een User test. 
+Voor deze opdracht ga je eerst leren een wireflow te tekenen van de interactie die je wil maken. Dat doe je in de deeltaak [fix-the-flow-wireflow](https://github.com/fdnd-task/fix-the-flow-wireflow). Daarna ga je de interactie coderen met CSS en JS. Tijdens een code/design review ga je de interactie leren testen met een User test. 
 
 ### Aanpak
 
