@@ -6,7 +6,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## User Story
-<!-- Schrijf de user story waar je aan hebt gewerkt  -->
+[Als buurtbewoner wil ik de buurtinitiativen kunnen filteren zodat ik makkelijker initiatieven kan vinden waar ik geinterreseert in ben.](https://github.com/zoepje/fix-the-flow-interactive-website/issues/5)
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
