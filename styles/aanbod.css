@@ -23,7 +23,7 @@ aside{
     transition: 0.5s;
   }
 
-  /* togle class */
+  /* toggle class */
   & .show {
     height: 150px;
   }
@@ -46,7 +46,6 @@ aside{
   & .card {
     margin: var(--primaryMargin);
   }
-
 }
 
 form{
@@ -63,7 +62,6 @@ form{
       "n n"
       "a m"
       "f f";
-  
   }
   
   header{
