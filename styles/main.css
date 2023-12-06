@@ -1,0 +1,144 @@
+*{
+  scroll-behavior: smooth; /*Zorgt ervoor dat als je op een linkje klikt met id dat je niet gelijk er naar toe sprinkt maar dat het smooth gaat*/
+  overflow-x: hidden; /*Zorgt ervoor dat je niet horizontaal kan scrollen*/
+  box-sizing: border-box; /*Zorgt ervoor dat de bij het aangeven van de groote de border wordt mee geteld*/
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+	/* Font */
+	--primaryFont: system-ui, -apple-system, Roboto, 'Open Sans', sans-serif;
+	--secondaryFont: system-ui, -apple-system, Verdana, sans-serif;
+	
+	/* Kleuren */
+	--primaryColor: #34787e;
+	--secondaryColor: #c2edce;
+  --tertiaryColor: #85bf97;
+  --quaternaryColor: #48abb6;
+  
+	--lightColor100: #ffffff;
+	--lightColor200: #f6f6f2;
+	--lightCoror300: #e7ece2;
+
+	--darkColor100: #000000;
+  --darkColor200: #2f2f2f;
+  
+  --linkColor: #0151a8;
+  --linkColorHov: #25575b;
+
+  /* margin/padding */
+  --primaryMargin: 1rem;
+  --primaryPadding: 1rem;
+  --lineLenght: 30rem;
+}
+
+body{
+  font-family: var(--primaryFont);
+  background-color: var(--lightColor200);
+  line-height: 1.5;
+  color: var(--darkColor100);
+}
+
+header {
+  margin: var(--primaryMargin);
+  color: var(--primaryColor);
+  text-align: center;
+}
+
+h1, h2{
+  text-transform: uppercase;
+}
+
+/*#region Navigation*/
+nav{
+  background-color: var(--primaryColor);
+  text-align: center;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li{
+  padding: var(--primaryPadding);
+  width: 20vw;
+}
+
+nav a{
+  color:var(--lightColor100);
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: var(--darkColor100);
+  text-decoration: underline;
+}
+/*#endregion Nav*/
+
+/*#region Card*/
+.card{
+  margin: 0 1em;
+  padding: 0 1em 1.5em;
+  display: flex;
+  flex-direction: column; /*zort ervoor dat de image en tekst onderelkaar komen te staan in de article*/
+  background: var(--secondaryColor);
+  position: relative;
+  width: 70vw;
+  max-width: 300px;
+  height: 40vh;
+  min-height: 250px;
+  transition: all 1.5s ease;
+
+  & img{
+    width: 100vw;
+    height: 30vh;
+    align-self: center;
+    max-width: 300px;
+    min-height: 70px;
+    max-height: 250px;
+  }
+
+  & h3{
+    margin-top: var(--primaryMargin);
+    overflow: unset;
+    text-align: center;
+  }
+  
+  & p {
+    overflow: unset;
+    margin-top: 0.5em;
+    max-width: var(--lineLenght);
+  }
+
+  & .explanation {
+    opacity: 0;
+    max-height:0;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+} 
+
+/* Card wordt groter zodat de explanation te lezen is */
+.card:hover{
+  height: 50vh;
+
+  & img {
+    display: none;
+  }
+
+  & .explanation {
+    opacity: 1;
+    overflow: unset;
+  }
+}
+/*#endregion Card*/
+
+footer{
+  padding: var(--primaryPadding);
+  background-color: var(--primaryColor);
+  color: var(--lightColor200);
+}
