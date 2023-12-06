@@ -9,6 +9,8 @@
   <!-- Google icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
+  <script src="js.js" defer=""></script>
+
   <title>Aanbod</title>
 </head>
 
@@ -26,14 +28,16 @@
 	</nav>
 
 	<aside>
-		<form>
-			<label><h2>Filter:</h2></label>
-			<label><input type="checkbox" >Evenementen</label>
-			<label><input type="checkbox" >Hulp nodig</label>
-			<label><input type="checkbox" >Hulp aanbieder</label>
-			<label><input type="checkbox" >Muziek</label>
-			<label><input type="checkbox" >Museum</label>
-			<label><input type="checkbox" >Kinderen</label>
+		<form class="filter">
+			<legend class="filterbutton" >Filter<span class="material-symbols-outlined">filter_list</span></legend>
+      <div class="labels">
+        <label><input type="checkbox" > Evenementen</label>
+        <label><input type="checkbox" > Hulp nodig</label>
+        <label><input type="checkbox" > Hulp aanbieder</label>
+        <label><input type="checkbox" > Muziek</label>
+        <label><input type="checkbox" > Museum</label>
+        <label><input type="checkbox" > Kinderen</label>
+      </div>
 		</form>
 	</aside>
 
