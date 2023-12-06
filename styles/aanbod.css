@@ -4,7 +4,7 @@ aside{
 }
 
 /* #region Filter */
-form {
+.filter {
   & legend {
     display: flex;
     justify-self: center;
