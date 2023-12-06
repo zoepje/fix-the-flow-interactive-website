@@ -3,6 +3,34 @@ aside{
   background-color: var(--tertiaryColor);
 }
 
+/* #region Filter */
+form {
+  & legend {
+    display: flex;
+    justify-self: center;
+    font-size: 1.5rem;
+
+    & span{
+      margin: 0 1em;
+      align-self: center;
+      overflow-y: hidden;
+    }
+  }
+
+  & .labels {
+    display: grid;
+    height: 0;
+    transition: 0.5s;
+  }
+
+  /* togle class */
+  & .show {
+    height: 150px;
+  }
+}
+/* #endregion Filter */
+
+
 .initiatief{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(352px, 352px)); /*Zorgt ervoor dat de grid automatisch verandert met het scherm*/
