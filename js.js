@@ -1,4 +1,4 @@
-var filter = document.querySelector("form.filter");
+var filter = document.querySelector("legend");
 var labels = document.querySelector("div.labels");
 
 function toggleFilter() {
