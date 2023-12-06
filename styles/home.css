@@ -1,0 +1,33 @@
+/*#region Main*/
+main {
+  margin: var(--primaryMargin);
+}
+
+section {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: var(--primaryMargin);
+
+  & h2 {
+    text-align: center;
+    margin: var(--primaryMargin);
+  }
+
+  & li a {
+    text-decoration: none;
+    color: var(--darkColor100);
+  }
+
+  & .scroll{
+    overflow: auto; /*Zorgt ervoor dat de lijst scrolled*/
+    white-space: nowrap; /*Zorgt ervoor dat de lijst op een lijn blijft staan*/
+    list-style: none;
+  
+    & li{
+      display: inline-block; /*zorgt ervoor dat list items in de section blijven*/
+      white-space: normal; /*zorgt ervoor dat de text niet op een lijn blijft staan*/
+    }
+  }
+}
+/*#endregion Main*/
