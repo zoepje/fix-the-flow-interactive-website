@@ -1,4 +1,4 @@
-var filter = document.querySelector("legend");
+var filterbtn = document.querySelector("legend");
 var labels = document.querySelector("div.labels");
 var main = document.querySelector("main");
 
@@ -12,7 +12,7 @@ function closeFilter(){
   }
 }
 
-filter.addEventListener("click", toggleFilter);
+filterbtn.addEventListener("click", toggleFilter);
 
 main.addEventListener("click", closeFilter);
 

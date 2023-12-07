@@ -82,13 +82,7 @@ form{
   
   aside{
     grid-area: a;
-
-
   }
-
-  /* .show{
-    display: grid;
-  } */
   
   main{
     grid-area: m;
@@ -101,5 +95,41 @@ form{
   .initiatief{
     width: 85vw;
   }
+}
+
+@media only screen and (min-width: 980px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+      "h h"
+      "n n"
+      "a m"
+      "f f";
+  }
+  
+  header{
+    grid-area: h;
+  }
+  
+  nav{
+    grid-area: n;
+  }
+  
+  aside{
+    grid-area: a;
+  }
+  
+  main{
+    grid-area: m;
+  }
+
+  footer{
+    grid-area: f;
+  }
+
+  .initiatief{
+    width: 85vw;
+  }  
 }
 /*#endregion MediaQueries*/
