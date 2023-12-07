@@ -74,7 +74,13 @@ form{
   
   aside{
     grid-area: a;
+    
+
   }
+
+  /* .show{
+    display: grid;
+  } */
   
   main{
     grid-area: m;
