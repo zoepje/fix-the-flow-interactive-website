@@ -1,5 +1,16 @@
-.filterbtn {
+/* .filterbtn {
   display: none;
+} */
+
+span{
+  margin: 0 1em;
+  overflow-y: hidden;
+  align-self: center;
+}
+
+legend {
+  display: flex;
+  font-size: 1.5rem;
 }
 
 /* #region Filter */
@@ -9,15 +20,7 @@
   background-color: var(--tertiaryColor);
 
   & legend {
-    display: flex;
     justify-self: center;
-    font-size: 1.5rem;
-
-    & span{
-      margin: 0 1em;
-      align-self: center;
-      overflow-y: hidden;
-    }
   }
 
   & .labels {
@@ -60,7 +63,7 @@
 }
 
 /*#region MediaQueries*/
-@media only screen and (min-width: 750px){
+@media only screen and (min-width: 700px){
   body{
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -83,6 +86,11 @@
     grid-area: a;
     width: 200px;
   }
+
+  /* .filterbtn{
+    display: flex;
+    font-size: 1.5em;
+  } */
 
   .filter {
     overflow-y: hidden;
@@ -99,45 +107,29 @@
   footer{
     grid-area: f;
   }
-
-  .initiatief{
-    width: 85vw;
-  }
 }
 
 @media only screen and (min-width: 980px){
-  body{
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-areas:
-      "h h"
-      "n n"
-      "a m"
-      "f f";
-  }
-  
-  header{
-    grid-area: h;
-  }
-  
-  nav{
-    grid-area: n;
-  }
-  
   aside{
-    grid-area: a;
-  }
-  
-  main{
-    grid-area: m;
+    background-color: var(--tertiaryColor);
   }
 
-  footer{
-    grid-area: f;
+  /* .filterbtn{
+    display: none;
+  } */
+
+  .filter{
+    /* & legend{
+      display: flex;
+    } */
+
+    & .labels {
+      height: 150px;
+    }
   }
 
   .initiatief{
     width: 85vw;
-  }  
+  }
 }
 /*#endregion MediaQueries*/
