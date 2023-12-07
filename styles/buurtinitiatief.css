@@ -1,0 +1,139 @@
+/*#region Aside */
+aside{
+  & .recommendLab{
+    display: none;
+    padding: var(--primaryPadding);
+  }
+}
+/*#endregion Aside */
+
+/*#region Links */
+section li a{
+  color: var(--linkColor);
+}
+
+section li a:hover{
+  text-decoration: underline;
+  color: var(--linkColorHov);
+}
+/*#endregion Links */
+
+/*#region Main*/
+main {
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+
+  & .topImg {
+    width: 100vw;
+    height: 30vh;
+  }
+
+  & h1{
+    padding: var(--primaryPadding);
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  & article{
+    padding: var(--primaryPadding);
+    padding-top:0;
+    align-self: center;
+  }
+
+  & article :nth-child(1){
+    padding-top:0;
+  }
+  
+  & p{
+    padding: var(--primaryPadding) 0;
+    max-width: var(--lineLenght);
+  }
+
+  & section{
+    padding:var(--primaryPadding);
+    align-self: center;
+  }
+
+  .info{
+    background-color: var(--lightCoror300);
+    margin: 0;
+  }
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+
+  & iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+}
+
+
+/*#endregion Main*/
+
+/*#region MediaQueries*/
+@media only screen and (min-width: 750px){
+  body{
+    margin: var(primaryMargin);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      "a m"
+      "f f";
+  }
+  
+  aside{
+    grid-area: a;
+
+    & .recommendLab{
+      display: block;
+    }
+  }
+  
+  main{
+    grid-area: m;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+      "im im"
+      "h1 h1"
+      "i art";
+
+    & .topImg {
+      grid-area: im;
+      height: 45vh;
+    }
+
+    & h1{
+      grid-area: h1;
+    }
+
+    & .info {
+      grid-area: i;
+    }
+
+    & article {
+      grid-area: art;
+    }
+
+    & section{
+      padding:var(--primaryPadding);
+      align-self: baseline;
+    }
+
+    & .recommendPho{
+      display: none;
+    }
+  }
+
+  footer{
+    grid-area: f;
+  }
+} 
+/*#endregion MediaQueries*/
