@@ -38,13 +38,21 @@ aside{
   width: 100vw;
   list-style: none;
 
+  & li {
+    margin: var(--primaryMargin);
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+  }
+
   & li a {
+    display: flex;
     text-decoration: none;
     color: var(--darkColor100);
   }
 
   & .card {
-    margin: var(--primaryMargin);
+    margin: 0;
   }
 }
 
@@ -74,7 +82,7 @@ form{
   
   aside{
     grid-area: a;
-    
+
 
   }
 
