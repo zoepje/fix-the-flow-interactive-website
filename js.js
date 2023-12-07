@@ -1,4 +1,4 @@
-var filterbtn = document.querySelector("legend");
+var legend = document.querySelector("legend");
 var labels = document.querySelector("div.labels");
 var main = document.querySelector("main");
 
@@ -12,10 +12,10 @@ function closeFilter(){
   }
 }
 
-filterbtn.addEventListener("click", toggleFilter);
+legend.addEventListener("click", toggleFilter);
 
 main.addEventListener("click", closeFilter);
 
-
+// Filter min-width: 750px //
 
 
