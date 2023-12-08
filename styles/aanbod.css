@@ -64,7 +64,7 @@ legend {
 
 /*#region MediaQueries*/
 @media only screen and (min-width: 700px){
-  body{
+  /* body{
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-areas:
@@ -72,7 +72,7 @@ legend {
       "n n"
       "a m"
       "f f";
-  }
+  } */
   
   header{
     grid-area: h;
@@ -84,7 +84,8 @@ legend {
   
   aside{
     grid-area: a;
-    width: 200px;
+    /* z-index: 1; */
+    /* width: 200px; */
   }
 
   /* .filterbtn{
@@ -110,6 +111,16 @@ legend {
 }
 
 @media only screen and (min-width: 980px){
+    body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+      "h h"
+      "n n"
+      "a m"
+      "f f";
+  }
+
   aside{
     background-color: var(--tertiaryColor);
   }
