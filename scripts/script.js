@@ -1,6 +1,6 @@
-var legend = document.querySelector("legend");
-var labels = document.querySelector("div.labels");
-var main = document.querySelector("main");
+const legend = document.querySelector("legend");
+const labels = document.querySelector("div.labels");
+const main = document.querySelector("main");
 
 function toggleFilter() {
   labels.classList.toggle("show");
