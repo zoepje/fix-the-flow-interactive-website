@@ -74,33 +74,16 @@ legend {
       "f f";
   } */
   
-  header{
-    grid-area: h;
-  }
-  
-  nav{
-    grid-area: n;
-  }
-  
   aside{
-    grid-area: a;
-    /* z-index: 1; */
-    /* width: 200px; */
+    display: none;
   }
 
-  /* .filterbtn{
-    display: flex;
-    font-size: 1.5em;
-  } */
-
-  .filter {
-    overflow-y: hidden;
-    width: 200px;
-    /* & legend {
-      display: none;
-    } */
+  .filter{
+    & .labels {
+      height: 150px;
+    }
   }
-  
+
   main{
     grid-area: m;
   }
@@ -121,10 +104,23 @@ legend {
       "f f";
   }
 
+  header{
+    grid-area: h;
+  }
+
+  nav{
+    grid-area: n;
+  }
+
   aside{
+    display: block;
+    grid-area: a;
     background-color: var(--tertiaryColor);
   }
 
+  form{
+    width: auto;
+  }
   /* .filterbtn{
     display: none;
   } */
@@ -139,8 +135,16 @@ legend {
     }
   }
 
+  main{
+    grid-area: m;
+  }
+
   .initiatief{
     width: 85vw;
+  }
+
+  footer{
+    grid-area: f;
   }
 }
 /*#endregion MediaQueries*/
