@@ -4,8 +4,8 @@ nav ul li:nth-child(1){
 
 /*#region Main*/
 main {
-  display: grid;
-  justify-items: center;
+  /* display: grid;
+  justify-items: center; */
   margin: var(--primaryMargin);
   margin-left: auto;
   margin-right: auto;
@@ -61,6 +61,7 @@ section {
   display:flex;
   flex-direction: column;
   justify-content: center;
+  /* justify-items: normal; */
   margin: var(--primaryMargin);
 
   & h2 {
