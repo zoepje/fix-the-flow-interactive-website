@@ -1,6 +1,9 @@
 /* .filterbtn {
   display: none;
 } */
+nav ul li:nth-child(2){
+  background-color: var(--hereColor);
+}
 
 span{
   margin: 0 1em;
