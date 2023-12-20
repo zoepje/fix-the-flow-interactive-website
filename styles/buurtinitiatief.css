@@ -95,6 +95,10 @@ main {
       display: block;
     }
   }
+
+  nav ul{
+    display: grid;
+  }
   
   main{
     grid-area: m;
