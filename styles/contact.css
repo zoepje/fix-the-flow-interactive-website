@@ -32,25 +32,6 @@ form{
 	}
 }
 
-button{
-	width: 15vw;
-	min-width: 200px;
-	background-color: var(--quaternaryColor);
-	color: var(--darkColor100);
-	text-align: center;
-	padding: 10px;
-	text-decoration: none;
-	transition: all 0.3s;
-	border: none;
-	position: relative;
-	margin-top: 2vh;
-}
-
-button:hover{
-	background-color: var(--darkColor100);
-	color: var(--lightColor200);
-}
-
 footer{
 	position: absolute;
 	bottom: 0;
