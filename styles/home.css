@@ -31,7 +31,6 @@ main {
   }
 
   & p {
-    max-width: var(--lineLenght);
     margin: var(--primaryMargin) 0;
   }
 }

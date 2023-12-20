@@ -47,7 +47,6 @@ main {
   
   & p{
     padding: var(--primaryPadding) 0;
-    max-width: var(--lineLenght);
   }
 
   & section{
