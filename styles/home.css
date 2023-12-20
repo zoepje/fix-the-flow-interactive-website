@@ -1,6 +1,60 @@
+nav ul li:nth-child(1){
+  background-color: var(--hereColor);
+}
+
 /*#region Main*/
 main {
+  display: grid;
+  justify-items: center;
   margin: var(--primaryMargin);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro{
+  overflow-x: unset;
+  margin: var(--primaryMargin);
+
+  & h2 {
+    font-size: 2rem;
+    text-transform: none;
+    max-width: 30rem;
+
+    & span{
+      color: var(--primaryColor);
+    }
+  }
+
+  & section{
+    display: block;
+    overflow-x: unset;
+  }
+
+  & p {
+    max-width: var(--lineLenght);
+    margin: var(--primaryMargin) 0;
+  }
+}
+
+
+
+a.button{
+	width: 15vw;
+	min-width: 200px;
+	background-color: var(--quaternaryColor);
+	color: var(--darkColor100);
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	transition: all 0.3s;
+	border: none;
+	position: relative;
+	margin-top: 2vh;
+}
+
+a.button:hover{
+	background-color: var(--darkColor100);
+	color: var(--lightColor200);
 }
 
 section {
@@ -31,3 +85,24 @@ section {
   }
 }
 /*#endregion Main*/
+
+/*#region MediaQueries*/
+@media only screen and (min-width: 950px){
+  .intro{
+    display: grid;
+    grid-template-areas: 
+    "h2 section";
+    margin: 20vh 3rem;
+    justify-content: center;
+  
+    & h2 {
+      grid-area: h2;
+      font-size: 3rem;
+    }
+  
+    & section{
+      grid-area: section;
+    }
+  }
+}
+  /*#endregion Mediaqueries*/
