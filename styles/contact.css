@@ -32,6 +32,11 @@ form{
 	}
 }
 
+button{
+	position: relative;
+	margin-top: 2vh;
+}
+
 footer{
 	position: absolute;
 	bottom: 0;
