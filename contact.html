@@ -25,9 +25,14 @@
   </nav>
 
   <main>
+    <p>Heeft u een idee voor een leuk initiatief neem dan hier contact met ons op.</p>
     <form onsubmit="return false" id="contactform">
       <label for="firstName"> Voornaam: </label>
-      <input type="text" placeholder="Voer u naam in" id="firstName" required/>
+      <input type="text" placeholder="Voer uw voornaam in" id="firstName" required/>
+      <label for="lastName"> Achternaam: </label>
+      <input type="text" placeholder="Voer uw achternaam in" id="lastName" required/>
+      <label for="email"> E-mail: </label>
+      <input type="text" placeholder="Voer uw emailadres in" id="email" required/>
       <label for="initiatief"> Wat is uw initiatief: </label>
       <textarea id="initiatief" placeholder="Vermeld uw initiatief. Beschrijf hierbij de tijd/datum en activiteit" required></textarea>
       <button onclick="sendContact();"> Verstuur initiatief </button>
