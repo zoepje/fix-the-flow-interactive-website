@@ -1,6 +1,14 @@
 nav ul li:nth-child(3){
   background-color: var(--hereColor);
 }
+main{
+	  display: grid;
+  justify-items: center;
+}
+p{
+	margin: var(--primaryMargin);
+	padding: var(--primaryPadding);
+}
 
 form{
 	margin: auto;
@@ -8,24 +16,25 @@ form{
 	display: grid;
 
 	& label{
+		margin: 0 var(--primaryMargin);
 		border: none;
 		padding-bottom: 3px;
 		display: flex;
 	}
 
 	& input {
-		border-radius: 5px;
-		border: none;
-		padding-left: 1em;
+		margin: 0 var(--primaryMargin);
+		border: 1px solid var(--primaryColor);
+		padding: 1em;
 		width: 30vw;
 		min-width: 300px;
 		height: 5vh;
 	}
 
 	& textarea {
-		border-radius: 5px;
-		border: none;
-		padding-left: 1em;
+		margin: 0 var(--primaryMargin);
+		border: 1px solid var(--primaryColor);
+		padding: 1em;
 		width: 30vw;
 		min-width: 300px;
 		height: 25vh;
@@ -34,11 +43,5 @@ form{
 
 button{
 	position: relative;
-	margin-top: 2vh;
-}
-
-footer{
-	position: absolute;
-	bottom: 0;
-	width: 100vw;
+	margin: var(--primaryMargin) 2vh;
 }
