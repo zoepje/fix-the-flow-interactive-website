@@ -1,3 +1,7 @@
+nav ul li:nth-child(3){
+  background-color: var(--hereColor);
+}
+
 form{
 	margin: auto;
 	width: 400px;
@@ -31,7 +35,7 @@ form{
 button{
 	width: 15vw;
 	min-width: 200px;
-	background-color: var(--secondaryColor);
+	background-color: var(--quaternaryColor);
 	color: var(--darkColor100);
 	text-align: center;
 	padding: 10px;
