@@ -62,7 +62,7 @@ main {
 }
 
 .google-map {
-  padding-bottom: 50%;
+  padding-bottom: 75%;
   position: relative;
 
   & iframe {
@@ -87,7 +87,7 @@ main {
       "a m"
       "f f";
   }
-  
+
   aside{
     grid-area: a;
 
@@ -99,6 +99,23 @@ main {
   nav ul{
     display: grid;
   }
+
+  main{
+    & .recommendPho{
+      display: none;
+    }
+
+    & .info{
+      width: 60vw;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  footer{
+    grid-area: f;
+  }
+}
+@media only screen and (min-width: 1200px){
   
   main{
     grid-area: m;
@@ -119,6 +136,7 @@ main {
     }
 
     & .info {
+      width: auto;
       grid-area: i;
     }
 
@@ -130,14 +148,6 @@ main {
       padding:var(--primaryPadding);
       align-self: baseline;
     }
-
-    & .recommendPho{
-      display: none;
-    }
-  }
-
-  footer{
-    grid-area: f;
   }
 } 
 /*#endregion MediaQueries*/
